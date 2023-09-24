@@ -20,4 +20,13 @@
 		<module>chapter-2.2-hello-world</module>
 	</modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-entitymanager</artifactId>
+                <version>5.0.0.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
